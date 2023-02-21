@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-pnrr
+  namespace: jvm-build-rtsi-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:bf6b8c2492485b7df3878e624a6fb85917f4fbb428e2dbbb21a41fa836f2f8ad
+        name: container-image
+        resources: {}
+status: {}

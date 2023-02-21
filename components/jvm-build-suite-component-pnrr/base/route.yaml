@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-pnrr
     app.kubernetes.io/part-of: jvm-build-suite-application-jsbv
-  name: jvm-build-suite-componentvjsp
+  name: jvm-build-suite-componentajab
   namespace: jvm-build-rtsi-tenant
 spec:
   port:

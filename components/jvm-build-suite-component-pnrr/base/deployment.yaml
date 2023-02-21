@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-pnrr
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:0c0a5bb5da1340c8830fd4dc2fa3346f
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:bf6b8c2492485b7df3878e624a6fb85917f4fbb428e2dbbb21a41fa836f2f8ad
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
